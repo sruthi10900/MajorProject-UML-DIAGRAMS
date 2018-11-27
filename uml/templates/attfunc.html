@@ -1,0 +1,14 @@
+
+<html>
+<body style="background-color:#40CECA;">
+<form action="http://127.0.0.1:5000/typedatt"method="POST">
+
+{% for i in result%}
+<p>Fill in attributes for {{i}}</p></br>
+<textarea rows='4', cols='80' name ={{i}} ></textarea></br>
+{% endfor %}
+<input type="submit"></input>
+</form>
+</body>
+</html>
+
